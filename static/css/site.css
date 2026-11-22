@@ -48,11 +48,9 @@ a { color: var(--pen); text-underline-offset: 0.2em; }
 .lang { padding: 0.3rem 0.75rem; font: 700 0.9375rem/1.3 var(--display); color: var(--pen); text-decoration: none; border: 1px solid currentColor; border-radius: 3px; }
 .lang:hover { background: var(--pen); color: var(--paper); }
 
-/* ---- hero: a dictionary headword, then the headline beside the form ---- */
+/* ---- hero: the German word for the thing, then the headline beside the form ---- */
 .hero { padding-block: clamp(1.5rem, 4vw, 3rem) clamp(2.5rem, 6vw, 5rem); }
 .headword { font: 700 clamp(1.25rem, 5.6vw, 4rem)/1.02 var(--display); letter-spacing: -0.005em; color: var(--print); hyphens: manual; overflow-wrap: break-word; }
-.entry { margin-top: 0.5rem; font-size: 0.9375rem; font-style: italic; color: var(--muted); }
-.entry__syllables { margin-right: 0.4rem; font: 700 0.9375rem/1.3 var(--display); font-style: normal; letter-spacing: 0.03em; color: var(--print); }
 .hero__grid { display: grid; gap: 1.5rem clamp(1.75rem, 4vw, 3.5rem); align-items: start; margin-top: clamp(1.5rem, 3.5vw, 2.75rem); }
 .hero__text, .outcome { min-width: 0; max-width: 34rem; }
 h1 { font-size: clamp(2rem, 1.4rem + 2.2vw, 3rem); letter-spacing: -0.01em; }
